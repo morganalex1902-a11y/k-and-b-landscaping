@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Phone, Mail, MapPin, Facebook, Clock } from "lucide-react";
 import SectionLabel from "@/components/SectionLabel";
 import ScrollReveal from "@/components/ScrollReveal";
+import GoogleMap from "@/components/GoogleMap";
 
 const Contact = () => {
   const [submitted, setSubmitted] = useState(false);
@@ -94,6 +95,9 @@ const Contact = () => {
                 <p className="flex items-center gap-3 text-foreground">
                   <MapPin size={18} className="text-primary" /> <span className="font-body">East Kingston, NH 03827</span>
                 </p>
+                <div className="mt-4">
+                  <GoogleMap />
+                </div>
               </div>
 
               <a href="https://www.facebook.com/profile.php?id=100064051238990" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 mt-6 text-foreground hover:text-primary transition-colors">

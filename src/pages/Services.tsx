@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import SectionLabel from "@/components/SectionLabel";
 import ScrollReveal from "@/components/ScrollReveal";
+import HeroParallax from "@/components/HeroParallax";
 import { services, serviceAreas } from "@/data/siteData";
 import { Phone } from "lucide-react";
 import lawnPatio from "@/assets/lawn-patio.png";
@@ -25,15 +26,13 @@ const serviceImages: Record<string, string> = {
 const Services = () => (
   <div>
     {/* Hero */}
-    <section className="hero-gradient pt-32 pb-16">
-      <div className="container mx-auto px-4">
-        <h1 className="font-display text-5xl md:text-[72px] text-kb-white animate-hero-2">OUR SERVICES</h1>
-        <p className="font-heading text-lg text-primary tracking-[0.2em] italic mt-2 animate-hero-3">DESIGN · BUILD · MAINTAIN</p>
-        <p className="text-kb-gray text-sm mt-3 animate-hero-4">
-          <Link to="/" className="hover:text-primary">Home</Link> &gt; Services
-        </p>
-      </div>
-    </section>
+    <HeroParallax imageUrl={lawnStriped} overlayOpacity={0.8}>
+      <h1 className="font-display text-5xl md:text-[72px] text-kb-white animate-hero-2">OUR SERVICES</h1>
+      <p className="font-heading text-lg text-primary tracking-[0.2em] italic mt-2 animate-hero-3">DESIGN · BUILD · MAINTAIN</p>
+      <p className="text-kb-gray text-sm mt-3 animate-hero-4">
+        <Link to="/" className="hover:text-primary">Home</Link> &gt; Services
+      </p>
+    </HeroParallax>
 
     {/* Services */}
     <section className="section-dark py-20">

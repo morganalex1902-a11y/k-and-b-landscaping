@@ -1,5 +1,6 @@
 import SectionLabel from "@/components/SectionLabel";
 import ScrollReveal from "@/components/ScrollReveal";
+import GoogleMap from "@/components/GoogleMap";
 import { serviceAreas } from "@/data/siteData";
 import kbTrailer from "@/assets/kb-trailer.png";
 import mowersFleet from "@/assets/mowers-fleet.png";
@@ -69,8 +70,11 @@ const About = () => (
     {/* Service Areas */}
     <section className="section-dark py-20 border-t border-kb-gray-border">
       <div className="container mx-auto px-4 text-center">
-        <h2 className="font-display text-4xl md:text-[48px] text-kb-white">WHERE WE WORK</h2>
-        <div className="flex flex-wrap justify-center gap-3 mt-8">
+        <h2 className="font-display text-4xl md:text-[48px] text-kb-white mb-8">WHERE WE WORK</h2>
+        <div className="max-w-4xl mx-auto mb-10">
+          <GoogleMap />
+        </div>
+        <div className="flex flex-wrap justify-center gap-3">
           {serviceAreas.map(a => (
             <span key={a} className="area-badge">{a}</span>
           ))}

@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom";
 import SectionLabel from "@/components/SectionLabel";
 import ScrollReveal from "@/components/ScrollReveal";
+import HeroParallax from "@/components/HeroParallax";
 import snowPlows from "@/assets/snow-plows.png";
 import snowWolf from "@/assets/snow-wolf.png";
+import catPlow from "@/assets/cat-plow.png";
 
 const features = [
   { icon: "❄️", title: "24/7 Emergency Response", desc: "We respond around the clock during storms" },
@@ -14,14 +16,11 @@ const features = [
 const SnowRemoval = () => (
   <div>
     {/* Hero */}
-    <section className="section-gradient min-h-[60vh] flex items-center relative overflow-hidden">
-      <div className="absolute inset-0 opacity-10" style={{ backgroundImage: "radial-gradient(circle, hsl(var(--kb-white)) 1px, transparent 1px)", backgroundSize: "30px 30px" }} />
-      <div className="container mx-auto px-4 relative z-10 pt-20">
-        <h1 className="font-display text-5xl md:text-[80px] text-kb-white animate-hero-2">SNOW & ICE<br />REMOVAL</h1>
-        <p className="font-heading text-lg text-primary tracking-[0.15em] mt-3 animate-hero-3">24/7 STORM RESPONSE · EAST KINGSTON, NH</p>
-        <p className="text-kb-gray mt-3 animate-hero-4">Don't get caught in a storm unprepared.</p>
-      </div>
-    </section>
+    <HeroParallax imageUrl={catPlow} overlayOpacity={0.75} className="section-gradient">
+      <h1 className="font-display text-5xl md:text-[80px] text-kb-white animate-hero-2">SNOW & ICE<br />REMOVAL</h1>
+      <p className="font-heading text-lg text-primary tracking-[0.15em] mt-3 animate-hero-3">24/7 STORM RESPONSE · EAST KINGSTON, NH</p>
+      <p className="text-kb-gray mt-3 animate-hero-4">Don't get caught in a storm unprepared.</p>
+    </HeroParallax>
 
     {/* Features */}
     <section className="section-dark py-16">

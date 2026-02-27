@@ -57,6 +57,10 @@
     --sidebar-border: 0 0% 16%;
     --sidebar-ring: 93 78% 50%;
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
 }
 
 @layer base {
@@ -93,7 +97,7 @@
 
   .btn-green {
     @apply font-heading uppercase tracking-wider px-8 py-3.5 rounded-sm font-bold
-           bg-primary text-primary-foreground transition-all duration-250 cursor-pointer
+           bg-primary text-primary-foreground transition-all duration-300 cursor-pointer
            hover:-translate-y-0.5;
     box-shadow: 0 4px 16px hsl(var(--green-primary) / 0.2);
   }
@@ -104,33 +108,33 @@
 
   .btn-outline-green {
     @apply font-heading uppercase tracking-wider px-8 py-3.5 rounded-sm font-bold
-           bg-transparent border-2 border-primary text-kb-white transition-all duration-250 cursor-pointer
+           bg-transparent border-2 border-primary text-kb-white transition-all duration-300 cursor-pointer
            hover:bg-primary hover:text-primary-foreground hover:-translate-y-0.5;
   }
 
   .btn-outline-dark {
     @apply font-heading uppercase tracking-wider px-8 py-3.5 rounded-sm font-bold
-           bg-transparent border-2 border-kb-black text-kb-black transition-all duration-250 cursor-pointer
+           bg-transparent border-2 border-kb-black text-kb-black transition-all duration-300 cursor-pointer
            hover:bg-kb-black hover:text-kb-white hover:-translate-y-0.5;
   }
 
   .btn-dark {
     @apply font-heading uppercase tracking-wider px-8 py-3.5 rounded-sm font-bold
-           bg-kb-black text-kb-white transition-all duration-250 cursor-pointer
+           bg-kb-black text-kb-white transition-all duration-300 cursor-pointer
            hover:-translate-y-0.5;
     box-shadow: 0 4px 16px hsl(0 0% 0% / 0.3);
   }
 
   .btn-scribby {
     @apply font-heading uppercase tracking-wider px-8 py-3.5 rounded-sm font-bold
-           transition-all duration-250 cursor-pointer hover:-translate-y-0.5;
+           transition-all duration-300 cursor-pointer hover:-translate-y-0.5;
     background: hsl(var(--scribby-yellow));
     color: hsl(var(--kb-black));
   }
 
   .btn-outline-scribby {
     @apply font-heading uppercase tracking-wider px-8 py-3.5 rounded-sm font-bold
-           bg-transparent transition-all duration-250 cursor-pointer hover:-translate-y-0.5;
+           bg-transparent transition-all duration-300 cursor-pointer hover:-translate-y-0.5;
     border: 2px solid hsl(var(--scribby-yellow));
     color: hsl(var(--scribby-yellow));
   }

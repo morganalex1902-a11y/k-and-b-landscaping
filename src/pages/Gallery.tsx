@@ -10,6 +10,13 @@ import mowersFleet from "@/assets/mowers-fleet.png";
 import brushClearing from "@/assets/brush-clearing.png";
 import excavatorWork from "@/assets/excavator-work.png";
 import kbTrailer from "@/assets/kb-trailer.png";
+import mowersLineup from "@/assets/mowers-lineup.png";
+import catPlow from "@/assets/cat-plow.png";
+import kubotaSnowwolf from "@/assets/kubota-snowwolf.png";
+import excavatorLoader from "@/assets/excavator-loader.png";
+import greenAvant from "@/assets/green-avant.png";
+import jcbSnowwolf from "@/assets/jcb-snowwolf.png";
+import jcbSide from "@/assets/jcb-side.png";
 
 const galleryImages = [
   { src: lawnPatio, alt: "Landscaped patio with striped lawn", category: "landscaping" },
@@ -20,6 +27,13 @@ const galleryImages = [
   { src: excavatorWork, alt: "Excavator work on property", category: "landscaping" },
   { src: snowWolf, alt: "SnowWolf commercial equipment", category: "snow" },
   { src: kbTrailer, alt: "K&B Landscaping trailer", category: "landscaping" },
+  { src: mowersLineup, alt: "Mowers lineup", category: "lawn" },
+  { src: catPlow, alt: "CAT skid steer with plow", category: "snow" },
+  { src: kubotaSnowwolf, alt: "Kubota with SnowWolf", category: "snow" },
+  { src: excavatorLoader, alt: "Excavator and loader", category: "landscaping" },
+  { src: greenAvant, alt: "Green Avant loader", category: "landscaping" },
+  { src: jcbSnowwolf, alt: "JCB with SnowWolf", category: "snow" },
+  { src: jcbSide, alt: "JCB skid steer side view", category: "snow" },
 ];
 
 const categories = ["all", "lawn", "landscaping", "snow", "cleanup"];

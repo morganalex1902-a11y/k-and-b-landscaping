@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import SectionLabel from "@/components/SectionLabel";
 import ScrollReveal from "@/components/ScrollReveal";
+import HeroParallax from "@/components/HeroParallax";
 import lawnPatio from "@/assets/lawn-patio.png";
 
 const steps = [
@@ -17,16 +18,10 @@ const Landscaping = () => {
   return (
     <div>
       {/* Hero */}
-      <section className="relative min-h-[60vh] flex items-center">
-        <div className="absolute inset-0">
-          <img src={lawnPatio} alt="Landscaping" className="w-full h-full object-cover" />
-          <div className="absolute inset-0 bg-kb-black/70" />
-        </div>
-        <div className="container mx-auto px-4 relative z-10 pt-20">
-          <h1 className="font-display text-5xl md:text-[80px] text-kb-white animate-hero-2">LANDSCAPING</h1>
-          <p className="font-display text-3xl md:text-[48px] text-primary animate-hero-3">DESIGN · BUILD · MAINTAIN</p>
-        </div>
-      </section>
+      <HeroParallax imageUrl={lawnPatio} overlayOpacity={0.7}>
+        <h1 className="font-display text-5xl md:text-[80px] text-kb-white animate-hero-2">LANDSCAPING</h1>
+        <p className="font-display text-3xl md:text-[48px] text-primary animate-hero-3">DESIGN · BUILD · MAINTAIN</p>
+      </HeroParallax>
 
       {/* Why K&B */}
       <section className="section-light py-20">
