@@ -272,6 +272,56 @@ const galleryImages = [
     alt: "Large paver patio area with stone walls",
     category: "Hardscapes"
   },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fd531d910ec654310a72c9abcfe99cef3?format=webp&width=800&height=1200",
+    alt: "Commercial mulch blowing equipment on trailer",
+    category: "Commercial & Residential Mulch Blowing"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F35ccea98b1d940d0af91c239cddcfb9b?format=webp&width=800&height=1200",
+    alt: "Freshly mulched large estate lawn",
+    category: "Commercial & Residential Mulch Blowing"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fe1b015bbeb0e48df8b50d5f43835cff2?format=webp&width=800&height=1200",
+    alt: "Detail of red mulch in garden bed",
+    category: "Commercial & Residential Mulch Blowing"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F74783ff0ff3047febb056d4b3b4e2bea?format=webp&width=800&height=1200",
+    alt: "Stepping stone path with fresh mulch",
+    category: "Commercial & Residential Mulch Blowing"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fcfd31532ff5d4e24a6339c9172f02ca6?format=webp&width=800&height=1200",
+    alt: "Landscape bed with hostas and fresh dark mulch",
+    category: "Commercial & Residential Mulch Blowing"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fd543f018150e483eb2f4af9b0333da7f?format=webp&width=800&height=1200",
+    alt: "Small flower bed with fresh mulch by driveway",
+    category: "Commercial & Residential Mulch Blowing"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F080aa41369c64cc09f69f7107e10abca?format=webp&width=800&height=1200",
+    alt: "Large mulched slope with plantings and stone wall",
+    category: "Commercial & Residential Mulch Blowing"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F980f7410060143d2abdd6c5f9f833b8e?format=webp&width=800&height=1200",
+    alt: "Meadowview sign with freshly mulched beds",
+    category: "Commercial & Residential Mulch Blowing"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F72b6fb43f1bf441fb41b0b29610fe10e?format=webp&width=800&height=1200",
+    alt: "Truck and mulch blowing equipment on site",
+    category: "Commercial & Residential Mulch Blowing"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F0bfbe3c2347548d5baa42368c3d01a77?format=webp&width=800&height=1200",
+    alt: "Large landscape area with boulders and fresh mulch",
+    category: "Commercial & Residential Mulch Blowing"
+  },
 ];
 
 const categories = [
