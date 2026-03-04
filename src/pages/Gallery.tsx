@@ -322,6 +322,41 @@ const galleryImages = [
     alt: "Large landscape area with boulders and fresh mulch",
     category: "Commercial & Residential Mulch Blowing"
   },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F599e90c33ee44be397f66723890b0954?format=webp&width=800&height=1200",
+    alt: "Red Yanmar excavator removing tree stump",
+    category: "Light Excavation"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fcc334b53c6b940c2b14afcefd52fe601?format=webp&width=800&height=1200",
+    alt: "Red Yanmar excavator and Kubota R540 loader",
+    category: "Light Excavation"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F6391038eb6f04968a9a21da0113d22b9?format=webp&width=800&height=1200",
+    alt: "Red Yanmar excavator moving large rocks",
+    category: "Light Excavation"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F9c282751601d4e1981324f8b27192609?format=webp&width=800&height=1200",
+    alt: "Red Yanmar excavator loading soil into truck",
+    category: "Light Excavation"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fdb197ac1a38e4579b8ebd22512f8c9b2?format=webp&width=800&height=1200",
+    alt: "Red Yanmar excavator and dump truck on property",
+    category: "Light Excavation"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fe7a4c9caccd3470fa8b3f1ec8888be1b?format=webp&width=800&height=1200",
+    alt: "Kubota loader working on foundation",
+    category: "Light Excavation"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fd193b332ffdb49e8b8dc1677f98580ab?format=webp&width=800&height=1200",
+    alt: "Excavated area for building foundation",
+    category: "Light Excavation"
+  },
 ];
 
 const categories = [
