@@ -382,6 +382,51 @@ const galleryImages = [
     alt: "Ornamental tree with vibrant pink and purple foliage",
     category: "Plantings and pruning"
   },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Feb6f64eb9dfd442ea08799c1c13e05a8?format=webp&width=800&height=1200",
+    alt: "Perfectly striped large residential lawn",
+    category: "Mowing"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F49b128b6312b4eacb25e3fc363479189?format=webp&width=800&height=1200",
+    alt: "Checkerboard striped lawn pattern",
+    category: "Mowing"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F1f8313a1b82f42ceb89428f6d977a3b4?format=webp&width=800&height=1200",
+    alt: "Wide landscape view of striped lawn and house",
+    category: "Mowing"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F0b22601d0eb3407798aaad465d4b546c?format=webp&width=800&height=1200",
+    alt: "Curved stripes on a large property lawn",
+    category: "Mowing"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fe429ebf4dfce4f298efcfee425102f7f?format=webp&width=800&height=1200",
+    alt: "Close-up of perfectly executed lawn stripes",
+    category: "Mowing"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F471782dd388e4203a86bbe1280dedb5a?format=webp&width=800&height=1200",
+    alt: "Long vertical lawn stripes at a large residence",
+    category: "Mowing"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fc417b6ddc08141a399201669b460fc4f?format=webp&width=800&height=1200",
+    alt: "Crisp diagonal stripes on a lush green lawn",
+    category: "Mowing"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fb7e3f7d40f3c41e49fd3922da6866ac2?format=webp&width=800&height=1200",
+    alt: "Lawn stripes at dusk under property lights",
+    category: "Mowing"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F7b9feab5b5cf42aca4feb4ca57b2e9bb?format=webp&width=800&height=1200",
+    alt: "Detailed striping pattern on front yard lawn",
+    category: "Mowing"
+  },
 ];
 
 const categories = [
