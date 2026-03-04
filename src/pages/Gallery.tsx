@@ -23,28 +23,58 @@ import yanmarExcavator from "@/assets/yanmar-excavator.png";
 import mowersLawn from "@/assets/mowers-lawn.png";
 
 const galleryImages = [
-  { src: lawnPatio, alt: "Landscaped patio with striped lawn", category: "landscaping" },
-  { src: lawnStriped, alt: "Striped lawn maintenance", category: "lawn" },
-  { src: snowPlows, alt: "Snow plow fleet ready for storm", category: "snow" },
-  { src: mowersFleet, alt: "Professional mower fleet", category: "lawn" },
-  { src: brushClearing, alt: "Brush clearing project", category: "cleanup" },
-  { src: excavatorWork, alt: "Excavator work on property", category: "landscaping" },
-  { src: snowWolf, alt: "SnowWolf commercial equipment", category: "snow" },
-  { src: kbTrailer, alt: "K&B Landscaping trailer", category: "landscaping" },
-  { src: catPlow, alt: "CAT skid steer with plow", category: "snow" },
-  { src: kubotaSnowwolf, alt: "Kubota with SnowWolf", category: "snow" },
-  { src: excavatorLoader, alt: "Excavator and loader", category: "landscaping" },
-  { src: greenAvant, alt: "Green Avant loader", category: "landscaping" },
-  { src: jcbSnowwolf, alt: "JCB with SnowWolf", category: "snow" },
-  { src: jcbSide, alt: "JCB skid steer side view", category: "snow" },
-  { src: teamPhoto, alt: "K&B team with equipment fleet", category: "lawn" },
-  { src: trailerWrap, alt: "K&B branded trailer wrap", category: "landscaping" },
-  { src: kubotaLoader, alt: "Kubota R540 wheel loader", category: "landscaping" },
-  { src: yanmarExcavator, alt: "Yanmar excavator on trailer", category: "landscaping" },
-  { src: mowersLawn, alt: "Full mower fleet lineup on lawn", category: "lawn" },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fbd483a0e698e474691164d60472169a5?format=webp&width=800&height=1200",
+    alt: "Black lab in fall leaves",
+    category: "Spring & Fall Cleanup"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fd8b89d88a6914a29bb89927b27913e2b?format=webp&width=800&height=1200",
+    alt: "Leaf removal truck and equipment",
+    category: "Spring & Fall Cleanup"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F0b2813e4345c4c69b7e0f4b5ab6df2ae?format=webp&width=800&height=1200",
+    alt: "Large pile of leaves ready for removal",
+    category: "Spring & Fall Cleanup"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F571ec75d219c44f39fc9d8e9bb2f9543?format=webp&width=800&height=1200",
+    alt: "Ferris stand-on blowers",
+    category: "Spring & Fall Cleanup"
+  },
+  { src: lawnPatio, alt: "Landscaped patio with striped lawn", category: "Hardscapes" },
+  { src: lawnStriped, alt: "Striped lawn maintenance", category: "Mowing" },
+  { src: snowPlows, alt: "Snow plow fleet ready for storm", category: "Snow equipment" },
+  { src: mowersFleet, alt: "Professional mower fleet", category: "Mowing" },
+  { src: brushClearing, alt: "Brush clearing project", category: "Forestry and Flail mowing" },
+  { src: excavatorWork, alt: "Excavator work on property", category: "Light Excavation" },
+  { src: snowWolf, alt: "SnowWolf commercial equipment", category: "Snow equipment" },
+  { src: kbTrailer, alt: "K&B Landscaping trailer", category: "Mowing" },
+  { src: catPlow, alt: "CAT skid steer with plow", category: "Snow equipment" },
+  { src: kubotaSnowwolf, alt: "Kubota with SnowWolf", category: "Snow equipment" },
+  { src: excavatorLoader, alt: "Excavator and loader", category: "Light Excavation" },
+  { src: greenAvant, alt: "Green Avant loader", category: "Light Excavation" },
+  { src: jcbSnowwolf, alt: "JCB with SnowWolf", category: "Snow equipment" },
+  { src: jcbSide, alt: "JCB skid steer side view", category: "Snow equipment" },
+  { src: teamPhoto, alt: "K&B team with equipment fleet", category: "Mowing" },
+  { src: trailerWrap, alt: "K&B branded trailer wrap", category: "Mowing" },
+  { src: kubotaLoader, alt: "Kubota R540 wheel loader", category: "Light Excavation" },
+  { src: yanmarExcavator, alt: "Yanmar excavator on trailer", category: "Light Excavation" },
+  { src: mowersLawn, alt: "Full mower fleet lineup on lawn", category: "Mowing" },
 ];
 
-const categories = ["all", "lawn", "landscaping", "snow", "cleanup"];
+const categories = [
+  "all",
+  "Spring & Fall Cleanup",
+  "Commercial & Residential Mulch Blowing",
+  "Light Excavation",
+  "Forestry and Flail mowing",
+  "Hardscapes",
+  "Plantings and pruning",
+  "Mowing",
+  "Snow equipment"
+];
 
 const Gallery = () => {
   const [filter, setFilter] = useState("all");
