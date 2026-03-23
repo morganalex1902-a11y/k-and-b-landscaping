@@ -17,6 +17,7 @@ const serviceImages: Record<string, string> = {
   "snow-removal": snowPlows,
   "spring-fall-cleanup": brushClearing,
   "hardscaping": excavatorWork,
+  "light-excavation": excavatorWork,
   "shrub-tree-trimming": lawnStriped,
   "cobblestone-edging": lawnPatio,
   "brush-removal": brushClearing,

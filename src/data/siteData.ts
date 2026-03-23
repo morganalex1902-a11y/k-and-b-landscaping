@@ -40,6 +40,14 @@ export const services = [
     category: "hardscaping",
   },
   {
+    id: "light-excavation",
+    icon: "⛏️",
+    title: "Light Excavation & Yard Expansion",
+    short: "Grading, yard expansion, and soil work to transform your property layout.",
+    items: ["Yard grading and leveling", "Soil excavation and removal", "Yard expansion preparation", "Drainage improvements", "Site preparation for new features"],
+    category: "hardscaping",
+  },
+  {
     id: "shrub-tree-trimming",
     icon: "✂️",
     title: "Shrub & Tree Pruning",
