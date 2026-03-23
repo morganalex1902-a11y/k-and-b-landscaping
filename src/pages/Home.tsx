@@ -124,7 +124,7 @@ const Home = () => (
             We've partnered with Scribby's Junk Removal to offer our clients complete property cleanup solutions.
           </p>
           <ul className="mt-6 space-y-2">
-            {["Junk Removal", "Dumpster Rentals", "Garage Cleanouts", "Basement Cleanouts"].map(s => (
+            {["Junk Removal", "Garage Cleanouts", "Basement Cleanouts"].map(s => (
               <li key={s} className="flex items-center gap-2 text-kb-white font-body">
                 <span className="text-scribby-yellow">✓</span> {s}
               </li>

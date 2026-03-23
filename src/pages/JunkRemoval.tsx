@@ -3,7 +3,6 @@ import SectionLabel from "@/components/SectionLabel";
 
 const scribbyServices = [
   { icon: "🚛", title: "Junk Removal", desc: "Remove unwanted furniture, appliances, debris, and more. Fast pickup, responsible disposal." },
-  { icon: "🗑️", title: "Dumpster Rentals", desc: "Flexible dumpster rental for home projects, renovations, or large cleanouts. Delivered and picked up on your schedule." },
   { icon: "🏠", title: "Garage Cleanouts", desc: "Complete garage clearing — we haul everything away so you don't have to make multiple trips." },
   { icon: "🏚️", title: "Basement Cleanouts", desc: "Full basement decluttering service. We handle all the heavy lifting and sorting." },
 ];
@@ -44,6 +43,47 @@ const JunkRemoval = () => (
             </div>
           </ScrollReveal>
         ))}
+      </div>
+    </section>
+
+    {/* Additional Services */}
+    <section className="section-dark py-16 border-t border-kb-gray-border">
+      <div className="container mx-auto px-4">
+        <ScrollReveal className="text-center mb-12">
+          <h2 className="font-display text-4xl md:text-[48px] text-kb-white">ADDITIONAL SERVICES</h2>
+          <p className="text-kb-gray mt-3">Enhance your landscaping with our professional installations</p>
+        </ScrollReveal>
+        <div className="grid md:grid-cols-2 gap-8">
+          {/* Mulch Blowing */}
+          <ScrollReveal>
+            <div className="rounded-sm overflow-hidden">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2F89bd787b8ce54c6985ade182c689fc44%2F60794561ddb9470ba4e4bba48d0a7fcb?format=webp"
+                alt="Professional mulch blowing service for landscaping"
+                className="w-full h-64 object-cover"
+              />
+              <div className="bg-kb-black-soft p-6" style={{ borderLeft: "4px solid hsl(47, 92%, 52%)" }}>
+                <h3 className="font-heading text-xl text-kb-white uppercase">Commercial & Residential Mulch Blowing</h3>
+                <p className="text-kb-gray text-sm mt-2 leading-relaxed">Professional mulch installation for flower beds, landscaping projects, and property maintenance. Fast, efficient, and expertly applied.</p>
+              </div>
+            </div>
+          </ScrollReveal>
+
+          {/* Pea Stone */}
+          <ScrollReveal>
+            <div className="rounded-sm overflow-hidden">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2F89bd787b8ce54c6985ade182c689fc44%2F066d8d38fa7c4e898d32084561a095ba?format=webp"
+                alt="Professional pea stone installation for driveways and landscaping"
+                className="w-full h-64 object-cover"
+              />
+              <div className="bg-kb-black-soft p-6" style={{ borderLeft: "4px solid hsl(47, 92%, 52%)" }}>
+                <h3 className="font-heading text-xl text-kb-white uppercase">Pea Stone Installs</h3>
+                <p className="text-kb-gray text-sm mt-2 leading-relaxed">Premium pea stone installation for driveways, pathways, and landscape designs. Durable, attractive, and low-maintenance solutions for any property.</p>
+              </div>
+            </div>
+          </ScrollReveal>
+        </div>
       </div>
     </section>
 
