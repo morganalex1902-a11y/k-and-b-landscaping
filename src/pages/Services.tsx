@@ -22,7 +22,7 @@ const serviceImages: Record<string, string> = {
   "cobblestone-edging": "https://cdn.builder.io/api/v1/image/assets%2Fac74af0e91684e859253068842865ac0%2F0084615ec92841d3b1a61d033adfd1f4?format=webp&width=800&height=1200",
   "brush-removal": brushClearing,
   "forestry-mulching": "https://cdn.builder.io/api/v1/image/assets%2Fac74af0e91684e859253068842865ac0%2F63f48c150f814db1a401d32d052c800e?format=webp&width=800&height=1200",
-  "mulch-peastone": lawnStriped,
+  "mulch-peastone": "https://cdn.builder.io/api/v1/image/assets%2Fac74af0e91684e859253068842865ac0%2Fd94374c53f7a4d58970bdec0d9e719dc?format=webp&width=800&height=1200",
   "mulch-blowing": lawnPatio,
 };
 
