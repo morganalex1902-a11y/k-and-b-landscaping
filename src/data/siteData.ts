@@ -87,6 +87,30 @@ export const services = [
     items: ["Fast, efficient mulch installation", "Expertly applied coverage", "Commercial & residential properties", "Flower bed preparation", "Professional equipment"],
     category: "landscaping",
   },
+  {
+    id: "flail-mowing",
+    icon: "🌾",
+    title: "Flail/Field Mowing",
+    short: "Heavy-duty field and brush mowing for overgrown properties, meadows, and land maintenance.",
+    items: ["Overgrown field clearing", "Brush and tall grass mowing", "Property maintenance", "Land preparation", "Professional equipment"],
+    category: "landscaping",
+  },
+  {
+    id: "plantings",
+    icon: "🌸",
+    title: "Plantings of Perennials and Annuals",
+    short: "Expert planting services for perennials and annuals to create beautiful, colorful gardens year-round.",
+    items: ["Perennial garden design", "Annual flower planting", "Seasonal color planning", "Plant spacing and care", "Garden bed preparation"],
+    category: "landscaping",
+  },
+  {
+    id: "demo-service",
+    icon: "🚜",
+    title: "Demo Service",
+    short: "Professional demolition and debris removal for old structures, driveways, and hardscaping features.",
+    items: ["Structure demolition", "Driveway and patio removal", "Debris hauling and disposal", "Site clearing", "Heavy equipment operation"],
+    category: "cleanup",
+  },
 ];
 
 export const testimonials = [
