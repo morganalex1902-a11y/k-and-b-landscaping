@@ -22,6 +22,7 @@ const serviceImages: Record<string, string> = {
   "cobblestone-edging": lawnPatio,
   "brush-removal": brushClearing,
   "mulch-peastone": lawnStriped,
+  "mulch-blowing": lawnPatio,
 };
 
 const Services = () => (

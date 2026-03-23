@@ -79,6 +79,14 @@ export const services = [
     items: ["Mulch delivery and installation", "Peastone bed creation", "Weed barrier installation", "Bed reshaping and edging"],
     category: "landscaping",
   },
+  {
+    id: "mulch-blowing",
+    icon: "💨",
+    title: "Commercial & Residential Mulch Blowing",
+    short: "Professional mulch installation for flower beds, landscaping projects, and property maintenance.",
+    items: ["Fast, efficient mulch installation", "Expertly applied coverage", "Commercial & residential properties", "Flower bed preparation", "Professional equipment"],
+    category: "landscaping",
+  },
 ];
 
 export const testimonials = [
