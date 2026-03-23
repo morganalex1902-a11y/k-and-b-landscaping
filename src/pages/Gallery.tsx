@@ -323,6 +323,41 @@ const galleryImages = [
     category: "Commercial & Residential Mulch Blowing"
   },
   {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F89bd787b8ce54c6985ade182c689fc44%2F0c785f688435494a9f0a0c7546ce4fda?format=webp&width=800&height=1200",
+    alt: "Yellow mulch installation alongside driveway",
+    category: "Commercial & Residential Mulch Blowing"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F89bd787b8ce54c6985ade182c689fc44%2Fe6685c4263b849ffb5e35f3c6f00ee39?format=webp&width=800&height=1200",
+    alt: "Light colored stone pathway with red mulch beds",
+    category: "Commercial & Residential Mulch Blowing"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F89bd787b8ce54c6985ade182c689fc44%2Fbf3ddf324dc741d0bfc90ece5254af5f?format=webp&width=800&height=1200",
+    alt: "Black mulch installation along fence line",
+    category: "Commercial & Residential Mulch Blowing"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F89bd787b8ce54c6985ade182c689fc44%2F7e99703493564f4084a72c27a9d91b99?format=webp&width=800&height=1200",
+    alt: "Forest garden area with dark mulch and stone",
+    category: "Commercial & Residential Mulch Blowing"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F89bd787b8ce54c6985ade182c689fc44%2F58a711b8d69648049a12837e73c077b5?format=webp&width=800&height=1200",
+    alt: "Red mulch landscaping with flowering plants",
+    category: "Commercial & Residential Mulch Blowing"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F89bd787b8ce54c6985ade182c689fc44%2F5f3a0a14f2024f239b2c5e5d1f1cd653?format=webp&width=800&height=1200",
+    alt: "Professional mulch blowing sign installation",
+    category: "Commercial & Residential Mulch Blowing"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F89bd787b8ce54c6985ade182c689fc44%2F504182cae049476f9550a865c3d23ebb?format=webp&width=800&height=1200",
+    alt: "K&B equipment and crew with mulch blowing truck",
+    category: "Commercial & Residential Mulch Blowing"
+  },
+  {
     src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F599e90c33ee44be397f66723890b0954?format=webp&width=800&height=1200",
     alt: "Red Yanmar excavator removing tree stump",
     category: "Light Excavation"
