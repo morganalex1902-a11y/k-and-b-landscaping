@@ -56,11 +56,11 @@ export const services = [
     category: "hardscaping",
   },
   {
-    id: "brush-removal",
+    id: "forestry-mulching",
     icon: "🌲",
-    title: "Brush Removal",
-    short: "Clear overgrown brush, invasive vegetation, and debris from your property.",
-    items: ["Brush clearing and disposal", "Overgrown area reclamation", "Trail and path clearing", "Lot clearing"],
+    title: "Forestry Mulching",
+    short: "Professional forestry mulching and land clearing for residential and commercial properties.",
+    items: ["Land clearing and vegetation removal", "Tree and shrub grinding", "Debris clearing with equipment", "Site preparation for new growth"],
     category: "cleanup",
   },
   {

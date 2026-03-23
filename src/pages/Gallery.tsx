@@ -65,211 +65,151 @@ const galleryImages = [
   {
     src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F7efd2591b1c74492a4bb4c2abe143c85?format=webp&width=800&height=1200",
     alt: "Excavator clearing snow and brush",
-    category: "Forestry and Flail mowing"
+    category: "Forestry mulching"
   },
   {
     src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F14e5175458544bc3aa34805bea5cb68c?format=webp&width=800&height=1200",
     alt: "Overgrown brush before clearing",
-    category: "Forestry and Flail mowing"
+    category: "Forestry mulching"
   },
   {
     src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fc23fa863ac544f00acb917277df096c1?format=webp&width=800&height=1200",
     alt: "Brush cleared by shed",
-    category: "Forestry and Flail mowing"
+    category: "Forestry mulching"
   },
   {
     src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fe159f39405634072963499149ec5ef57?format=webp&width=800&height=1200",
     alt: "Excavator arm with attachment",
-    category: "Forestry and Flail mowing"
+    category: "Forestry mulching"
   },
   {
     src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fde08d78d6ff847b490f3696767d9d2d6?format=webp&width=800&height=1200",
     alt: "Cleared field with excavator in background",
-    category: "Forestry and Flail mowing"
+    category: "Forestry mulching"
   },
   {
     src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Ff7e51ff360114626a17d86255a68492c?format=webp&width=800&height=1200",
     alt: "Brush pile and cleared area",
-    category: "Forestry and Flail mowing"
+    category: "Forestry mulching"
   },
   {
     src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fa38ff360d0784f6ca80f6b4096266453?format=webp&width=800&height=1200",
     alt: "View from equipment clearing brush",
-    category: "Forestry and Flail mowing"
+    category: "Forestry mulching"
   },
   {
     src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fd2a1485470d24e0c951fc1df5c66558f?format=webp&width=800&height=1200",
     alt: "Cleared path through trees",
-    category: "Forestry and Flail mowing"
+    category: "Forestry mulching"
   },
   {
     src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F9209c0a8cb4a490eb6b1f793fc77bbc3?format=webp&width=800&height=1200",
     alt: "Green Avant equipment with mower attachment",
-    category: "Forestry and Flail mowing"
+    category: "Forestry mulching"
   },
   {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F0f73b766519a48ed858fa5d09f854445?format=webp&width=800&height=1200",
-    alt: "Paver walkway and stairs",
+    src: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2F664a5fed9d9d4681ba514db6fd872047?format=webp&width=800&height=1200",
+    alt: "Forestry mulching equipment in action",
+    category: "Forestry mulching"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2F1f357ee601f949fe90a30b9810137e7e?format=webp&width=800&height=1200",
+    alt: "Land clearing with forestry mulcher",
+    category: "Forestry mulching"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2Fbdc6fde6a51240699ba7b881ddcb68df?format=webp&width=800&height=1200",
+    alt: "Mulched landscape after clearing",
+    category: "Forestry mulching"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2F0db0a9f24dbd42d58890439a563d25ae?format=webp&width=800&height=1200",
+    alt: "Forestry mulching site preparation",
+    category: "Forestry mulching"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2F8dc30133b95b4d578c56bb16c691f7d8?format=webp&width=800&height=1200",
+    alt: "Cleared area with mulch material",
+    category: "Forestry mulching"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2F3dc055fc18574dabb7a6cabcb919ff0e?format=webp&width=800&height=1200",
+    alt: "Overgrown land forestry clearing",
+    category: "Forestry mulching"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2F42db8153b1b54e9f852573d8190bb701?format=webp&width=800&height=1200",
+    alt: "Professional mulching operation",
+    category: "Forestry mulching"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2F1bba7a2716034abb812b4fc373d59b37?format=webp&width=800&height=1200",
+    alt: "Tree grinding and mulching service",
+    category: "Forestry mulching"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2F4673f781514b412daa7a53a82ac5b6c8?format=webp&width=800&height=1200",
+    alt: "Mulch piles from land clearing",
+    category: "Forestry mulching"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2F2f47ce89b3e242d49d44baef9fa5dc9a?format=webp&width=800&height=1200",
+    alt: "Before and after forestry mulching",
+    category: "Forestry mulching"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2F0cc805b210d04583b8af2e18e2cabc41?format=webp&width=800&height=1200",
+    alt: "Hardscape excavator loading material",
     category: "Hardscapes"
   },
   {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fb3104bbd645045e0a76b7eb2c9776b19?format=webp&width=800&height=1200",
-    alt: "Retaining wall and patio area",
+    src: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2F9225008b67cb4a76ad70edabcaf389a1?format=webp&width=800&height=1200",
+    alt: "Hardscape driveway installation",
     category: "Hardscapes"
   },
   {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F3db00798dc834e01917f6e785643c01d?format=webp&width=800&height=1200",
-    alt: "Large raised garden bed construction",
+    src: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2F35a6b659bde34dbe8c5869a503309c43?format=webp&width=800&height=1200",
+    alt: "Patio and hardscape preparation",
     category: "Hardscapes"
   },
   {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fe0994634322a44f3a3d900c696b6d51f?format=webp&width=800&height=1200",
-    alt: "Stone fire pit area with blue chairs",
+    src: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2Fb4024e845b6748b2b14246cc2076482b?format=webp&width=800&height=1200",
+    alt: "Lakeside paver patio installation",
     category: "Hardscapes"
   },
   {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F35e7d24c166d48d6ab97235e707ab963?format=webp&width=800&height=1200",
-    alt: "Multi-level retaining wall and steps",
+    src: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2F5175f685ea9c4531ae7b6e8c403a6fa1?format=webp&width=800&height=1200",
+    alt: "Residential paver walkway",
     category: "Hardscapes"
   },
   {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F7f8d2fc659c64330a1a45a883ad41fbe?format=webp&width=800&height=1200",
-    alt: "Paver patio in front of shed",
+    src: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2Fa60e19b33f854cea88730e51d1471100?format=webp&width=800&height=1200",
+    alt: "Large patio and deck construction",
     category: "Hardscapes"
   },
   {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F8d4c27a43d1149f5855b824c1c735679?format=webp&width=800&height=1200",
-    alt: "Stone retaining wall on slope",
+    src: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2F543ca027b78a4e8d8e14d3075dc4bd43?format=webp&width=800&height=1200",
+    alt: "Playground installation with hardscape",
     category: "Hardscapes"
   },
   {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fb632ae1586d642a4840f0dbb33f57b89?format=webp&width=800&height=1200",
-    alt: "Long paver walkway to door",
+    src: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2F339075acae23454ca322dbdd039fbca8?format=webp&width=800&height=1200",
+    alt: "Patio with paver installation",
     category: "Hardscapes"
   },
   {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F35cc47986a8347888d50f8069c6188e4?format=webp&width=800&height=1200",
-    alt: "Paver walkway alongside pool fence",
+    src: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2Fcbfa9de3a26e416b8f86bf5dd46921e1?format=webp&width=800&height=1200",
+    alt: "Residential hardscape with landscape beds",
     category: "Hardscapes"
   },
   {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F38265715c9a0430aaabd57e4e96184a7?format=webp&width=800&height=1200",
-    alt: "Freshly graded soil and retaining wall",
+    src: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2Fc90dd7db9cfe4325b38b38807c60c80e?format=webp&width=800&height=1200",
+    alt: "Completed paver patio project",
     category: "Hardscapes"
   },
   {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F38d5a7292851439e86b6295bdb2ac828?format=webp&width=800&height=1200",
-    alt: "Large stone patio by lake",
-    category: "Hardscapes"
-  },
-  {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F3ec7c252c33240ea8d5b6b7a6e2f399f?format=webp&width=800&height=1200",
-    alt: "Red brick walkway construction",
-    category: "Hardscapes"
-  },
-  {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F422947cb709349a9912f197f11f7ae94?format=webp&width=800&height=1200",
-    alt: "Stone steps and walkway along house",
-    category: "Hardscapes"
-  },
-  {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fa6e89f999d93464196ecaf20d18cd04b?format=webp&width=800&height=1200",
-    alt: "Red brick walkway leading to equipment",
-    category: "Hardscapes"
-  },
-  {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F0a336d723d5045f59e41c338e6b3023b?format=webp&width=800&height=1200",
-    alt: "Paver path leading to garden area",
-    category: "Hardscapes"
-  },
-  {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F6855e3328f44493488779fd4c23430d3?format=webp&width=800&height=1200",
-    alt: "Stone retaining wall and graded driveway area",
-    category: "Hardscapes"
-  },
-  {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F881464a8d8014ac09460890e3dbcbc5f?format=webp&width=800&height=1200",
-    alt: "Excavator working on retaining wall",
-    category: "Hardscapes"
-  },
-  {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fb9a7d13d15b1423e98a659ae646fd251?format=webp&width=800&height=1200",
-    alt: "Stone steps leading down to patio",
-    category: "Hardscapes"
-  },
-  {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F72daa86ee4da4acdbba0c9c200d537f2?format=webp&width=800&height=1200",
-    alt: "Stone fire pit and seating area with walls",
-    category: "Hardscapes"
-  },
-  {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fe4786010710a4fb3b81f545a777949b6?format=webp&width=800&height=1200",
-    alt: "Large paver patio area with wall",
-    category: "Hardscapes"
-  },
-  {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fcd464427d723416bab49adfc8fd828ad?format=webp&width=800&height=1200",
-    alt: "Large paver patio extension",
-    category: "Hardscapes"
-  },
-  {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fbe2d5e4cddc0430c800444268a6ef9c5?format=webp&width=800&height=1200",
-    alt: "Large paver patio and seating area by pool",
-    category: "Hardscapes"
-  },
-  {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F4cdc8f5e42b24ad6ab6fd52fc82ecf41?format=webp&width=800&height=1200",
-    alt: "Paver walkway and landscape beds",
-    category: "Hardscapes"
-  },
-  {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F07388eba76b64561bc65141ca40a984b?format=webp&width=800&height=1200",
-    alt: "Multi-level stone steps walkway",
-    category: "Hardscapes"
-  },
-  {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fda539ba9b0834d9e9d79a23a32122d3e?format=webp&width=800&height=1200",
-    alt: "Play area with retaining wall and play set",
-    category: "Hardscapes"
-  },
-  {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fbe8117be03f5442b86e6579dd8d0a498?format=webp&width=800&height=1200",
-    alt: "Large rock fire pit under construction",
-    category: "Hardscapes"
-  },
-  {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F203f339817d947b4832e311531c72a68?format=webp&width=800&height=1200",
-    alt: "Rock fire pit and surrounding gravel area",
-    category: "Hardscapes"
-  },
-  {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fb3e05ed6786345a682d8197267febd04?format=webp&width=800&height=1200",
-    alt: "Red brick walkway leading to stairs",
-    category: "Hardscapes"
-  },
-  {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F9437dc05235b47e29abcddabe1c926f9?format=webp&width=800&height=1200",
-    alt: "Large stone retaining wall and steps",
-    category: "Hardscapes"
-  },
-  {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fef2ac0771bc44a23811a4d9809830c6c?format=webp&width=800&height=1200",
-    alt: "Paver walkway and garden bed with plants",
-    category: "Hardscapes"
-  },
-  {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fa9e1f4fea80c4e1fb48e1bfd1dfe62f2?format=webp&width=800&height=1200",
-    alt: "Outdoor water fountain feature with rocks",
-    category: "Hardscapes"
-  },
-  {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2F1df366ca74f14dcf9de4027183f08b83?format=webp&width=800&height=1200",
-    alt: "Paver walkway by pool under construction",
-    category: "Hardscapes"
-  },
-  {
-    src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fcce7368c7cfa463db56d5ab61b97dd16?format=webp&width=800&height=1200",
-    alt: "Large paver patio area with stone walls",
+    src: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2F02774341d39649da9e126ebe3203afff?format=webp&width=800&height=1200",
+    alt: "Circular paver patio with lawn seating area",
     category: "Hardscapes"
   },
   {
@@ -502,6 +442,16 @@ const galleryImages = [
     alt: "Tractor loading salt into truck with plow",
     category: "Snow equipment"
   },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2F9748e3946c0d4b68bb88d31337191e00?format=webp&width=800&height=1200",
+    alt: "Planted evergreen shrubs in mulch bed",
+    category: "Shrub pruning"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2F7f10ea8cdc584192bbe51d6b6d096baa?format=webp&width=800&height=1200",
+    alt: "Finished landscape with shrubs and mulch installation",
+    category: "Shrub pruning"
+  },
 ];
 
 const categories = [
@@ -509,11 +459,36 @@ const categories = [
   "Spring & Fall Cleanup",
   "Commercial & Residential Mulch Blowing",
   "Light Excavation",
-  "Forestry and Flail mowing",
+  "Forestry mulching",
   "Hardscapes",
   "Plantings and pruning",
+  "Shrub pruning",
   "Mowing",
   "Snow equipment"
+];
+
+const beforeAfterPairs = [
+  {
+    id: "shrub-pruning-1",
+    before: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2Fe677b7703bde405da81429ea4e212ce3?format=webp&width=800&height=1200",
+    after: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2Fe251143bdee8488a84b534959285d83e?format=webp&width=800&height=1200",
+    title: "Shrub Pruning and Installation",
+    category: "Shrub pruning"
+  },
+  {
+    id: "shrub-pruning-2",
+    before: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2Fb6d964fd51274251a199e926ae500a5c?format=webp&width=800&height=1200",
+    after: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2F0c033fe0d4654de0817b95dc508b6440?format=webp&width=800&height=1200",
+    title: "Professional Shrub Trimming",
+    category: "Shrub pruning"
+  },
+  {
+    id: "shrub-pruning-3",
+    before: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2Fb924803ea8834e6c8b7a7ec31876bb6c?format=webp&width=800&height=1200",
+    after: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2F37ce435943cb44e8af68195123da27b1?format=webp&width=800&height=1200",
+    title: "Landscape Shrub Installation",
+    category: "Shrub pruning"
+  }
 ];
 
 const Gallery = () => {
@@ -521,6 +496,7 @@ const Gallery = () => {
   const [lightboxIdx, setLightboxIdx] = useState<number | null>(null);
 
   const filtered = filter === "all" ? galleryImages : galleryImages.filter(i => i.category === filter);
+  const filteredBeforeAfter = filter === "all" ? beforeAfterPairs : beforeAfterPairs.filter(p => p.category === filter);
 
   return (
     <div>
@@ -566,6 +542,38 @@ const Gallery = () => {
           </div>
         </div>
       </section>
+
+      {/* Before/After Section */}
+      {filteredBeforeAfter.length > 0 && (
+        <section className="section-dark py-12 border-t border-kb-gray-border">
+          <div className="container mx-auto px-4">
+            <h2 className="font-display text-4xl md:text-[48px] text-kb-white text-center mb-12">Before & After</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {filteredBeforeAfter.map((pair) => (
+                <ScrollReveal key={pair.id}>
+                  <div className="space-y-4">
+                    <h3 className="font-heading text-xl text-kb-white text-center">{pair.title}</h3>
+                    <div className="grid grid-cols-2 gap-4">
+                      <div className="space-y-2">
+                        <div className="aspect-[4/3] overflow-hidden rounded-sm">
+                          <img src={pair.before} alt={`${pair.title} Before`} className="w-full h-full object-cover" />
+                        </div>
+                        <p className="text-sm font-heading text-kb-white text-center">BEFORE</p>
+                      </div>
+                      <div className="space-y-2">
+                        <div className="aspect-[4/3] overflow-hidden rounded-sm">
+                          <img src={pair.after} alt={`${pair.title} After`} className="w-full h-full object-cover" />
+                        </div>
+                        <p className="text-sm font-heading text-kb-white text-center">AFTER</p>
+                      </div>
+                    </div>
+                  </div>
+                </ScrollReveal>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* CTA */}
       <section className="section-dark py-16 border-t border-kb-gray-border">
