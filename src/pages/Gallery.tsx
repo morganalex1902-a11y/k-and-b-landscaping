@@ -552,6 +552,16 @@ const galleryImages = [
     alt: "Tractor loading salt into truck with plow",
     category: "Snow equipment"
   },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2F9748e3946c0d4b68bb88d31337191e00?format=webp&width=800&height=1200",
+    alt: "Planted evergreen shrubs in mulch bed",
+    category: "Shrub pruning"
+  },
+  {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2F7f10ea8cdc584192bbe51d6b6d096baa?format=webp&width=800&height=1200",
+    alt: "Finished landscape with shrubs and mulch installation",
+    category: "Shrub pruning"
+  },
 ];
 
 const categories = [
