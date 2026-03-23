@@ -3,7 +3,6 @@ import SectionLabel from "@/components/SectionLabel";
 
 const scribbyServices = [
   { icon: "🚛", title: "Junk Removal", desc: "Remove unwanted furniture, appliances, debris, and more. Fast pickup, responsible disposal." },
-  { icon: "🗑️", title: "Dumpster Rentals", desc: "Flexible dumpster rental for home projects, renovations, or large cleanouts. Delivered and picked up on your schedule." },
   { icon: "🏠", title: "Garage Cleanouts", desc: "Complete garage clearing — we haul everything away so you don't have to make multiple trips." },
   { icon: "🏚️", title: "Basement Cleanouts", desc: "Full basement decluttering service. We handle all the heavy lifting and sorting." },
 ];
