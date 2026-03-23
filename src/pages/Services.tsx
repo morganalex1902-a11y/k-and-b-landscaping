@@ -13,17 +13,20 @@ import lawnStriped from "@/assets/lawn-striped.png";
 
 const serviceImages: Record<string, string> = {
   "lawn-maintenance": mowersFleet,
-  "landscape-design": lawnPatio,
+  "landscape-design": "https://cdn.builder.io/api/v1/image/assets%2Fac74af0e91684e859253068842865ac0%2Fded2bd4011da44ab831b2c065951aa30?format=webp&width=800&height=1200",
   "snow-removal": snowPlows,
-  "spring-fall-cleanup": brushClearing,
+  "spring-fall-cleanup": "https://cdn.builder.io/api/v1/image/assets%2Fac74af0e91684e859253068842865ac0%2F0218b20191694889b6a992a30d5bd879?format=webp&width=800&height=1200",
   "hardscaping": "https://cdn.builder.io/api/v1/image/assets%2Fac74af0e91684e859253068842865ac0%2F52915f82b004471eb7983ab03233f525?format=webp&width=800&height=1200",
-  "light-excavation": excavatorWork,
+  "light-excavation": "https://cdn.builder.io/api/v1/image/assets%2Fac74af0e91684e859253068842865ac0%2F53684aa1d06145f4bc0b33de1f72cffb?format=webp&width=800&height=1200",
   "shrub-tree-trimming": "https://cdn.builder.io/api/v1/image/assets%2Fac74af0e91684e859253068842865ac0%2Feb02cd35a7444a1e8c64f4bde3e07aa1?format=webp&width=800&height=1200",
   "cobblestone-edging": "https://cdn.builder.io/api/v1/image/assets%2Fac74af0e91684e859253068842865ac0%2F0084615ec92841d3b1a61d033adfd1f4?format=webp&width=800&height=1200",
   "brush-removal": brushClearing,
   "forestry-mulching": "https://cdn.builder.io/api/v1/image/assets%2Fac74af0e91684e859253068842865ac0%2F63f48c150f814db1a401d32d052c800e?format=webp&width=800&height=1200",
   "mulch-peastone": "https://cdn.builder.io/api/v1/image/assets%2Fac74af0e91684e859253068842865ac0%2Fd94374c53f7a4d58970bdec0d9e719dc?format=webp&width=800&height=1200",
-  "mulch-blowing": lawnPatio,
+  "mulch-blowing": "https://cdn.builder.io/api/v1/image/assets%2Fac74af0e91684e859253068842865ac0%2F09045371e52a49a8b6d3f6ec4f28d3d3?format=webp&width=800&height=1200",
+  "flail-mowing": "https://cdn.builder.io/api/v1/image/assets%2Fac74af0e91684e859253068842865ac0%2Fb4796e9998444639afaf859963b15356?format=webp&width=800&height=1200",
+  "plantings": "https://cdn.builder.io/api/v1/image/assets%2Fac74af0e91684e859253068842865ac0%2Fd0d12234171443c7835b2e56bbd3e5ba?format=webp&width=800&height=1200",
+  "demo-service": "https://cdn.builder.io/api/v1/image/assets%2Fac74af0e91684e859253068842865ac0%2F8be1ff56d9d546719de2f8e38a743e1e?format=webp&width=800&height=1200",
 };
 
 const Services = () => (
