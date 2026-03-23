@@ -18,7 +18,7 @@ const serviceImages: Record<string, string> = {
   "spring-fall-cleanup": brushClearing,
   "hardscaping": "https://cdn.builder.io/api/v1/image/assets%2Fac74af0e91684e859253068842865ac0%2F52915f82b004471eb7983ab03233f525?format=webp&width=800&height=1200",
   "light-excavation": excavatorWork,
-  "shrub-tree-trimming": lawnStriped,
+  "shrub-tree-trimming": "https://cdn.builder.io/api/v1/image/assets%2Fac74af0e91684e859253068842865ac0%2Feb02cd35a7444a1e8c64f4bde3e07aa1?format=webp&width=800&height=1200",
   "cobblestone-edging": lawnPatio,
   "brush-removal": brushClearing,
   "mulch-peastone": lawnStriped,
