@@ -21,6 +21,7 @@ const serviceImages: Record<string, string> = {
   "shrub-tree-trimming": "https://cdn.builder.io/api/v1/image/assets%2Fac74af0e91684e859253068842865ac0%2Feb02cd35a7444a1e8c64f4bde3e07aa1?format=webp&width=800&height=1200",
   "cobblestone-edging": "https://cdn.builder.io/api/v1/image/assets%2Fac74af0e91684e859253068842865ac0%2F0084615ec92841d3b1a61d033adfd1f4?format=webp&width=800&height=1200",
   "brush-removal": brushClearing,
+  "forestry-mulching": "https://cdn.builder.io/api/v1/image/assets%2Fac74af0e91684e859253068842865ac0%2F63f48c150f814db1a401d32d052c800e?format=webp&width=800&height=1200",
   "mulch-peastone": lawnStriped,
   "mulch-blowing": lawnPatio,
 };
