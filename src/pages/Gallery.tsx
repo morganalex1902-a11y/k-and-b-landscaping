@@ -208,6 +208,11 @@ const galleryImages = [
     category: "Hardscapes"
   },
   {
+    src: "https://cdn.builder.io/api/v1/image/assets%2F41b4ab5f932c44f78c59ae25818f8603%2F02774341d39649da9e126ebe3203afff?format=webp&width=800&height=1200",
+    alt: "Circular paver patio with lawn seating area",
+    category: "Hardscapes"
+  },
+  {
     src: "https://cdn.builder.io/api/v1/image/assets%2F0f042e260f4e4898bb3fdcac69332937%2Fd531d910ec654310a72c9abcfe99cef3?format=webp&width=800&height=1200",
     alt: "Commercial mulch blowing equipment on trailer",
     category: "Commercial & Residential Mulch Blowing"
