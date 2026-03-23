@@ -40,6 +40,14 @@ export const services = [
     category: "hardscaping",
   },
   {
+    id: "light-excavation",
+    icon: "⛏️",
+    title: "Light Excavation & Yard Expansion",
+    short: "Grading, yard expansion, and soil work to transform your property layout.",
+    items: ["Yard grading and leveling", "Soil excavation and removal", "Yard expansion preparation", "Drainage improvements", "Site preparation for new features"],
+    category: "hardscaping",
+  },
+  {
     id: "shrub-tree-trimming",
     icon: "✂️",
     title: "Shrub & Tree Pruning",
@@ -69,6 +77,14 @@ export const services = [
     title: "Mulch & Peastone Beds",
     short: "Fresh mulch and peastone installations to enhance your landscape beds and suppress weeds.",
     items: ["Mulch delivery and installation", "Peastone bed creation", "Weed barrier installation", "Bed reshaping and edging"],
+    category: "landscaping",
+  },
+  {
+    id: "mulch-blowing",
+    icon: "💨",
+    title: "Commercial & Residential Mulch Blowing",
+    short: "Professional mulch installation for flower beds, landscaping projects, and property maintenance.",
+    items: ["Fast, efficient mulch installation", "Expertly applied coverage", "Commercial & residential properties", "Flower bed preparation", "Professional equipment"],
     category: "landscaping",
   },
 ];

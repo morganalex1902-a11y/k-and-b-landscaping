@@ -12,7 +12,7 @@ const JunkRemoval = () => (
     {/* Hero */}
     <section className="bg-kb-black-soft pt-32 pb-16 border-b-4 border-scribby-yellow">
       <div className="container mx-auto px-4">
-        <h1 className="font-display text-5xl md:text-[72px] text-kb-white animate-hero-2">JUNK REMOVAL &<br />DUMPSTER RENTALS</h1>
+        <h1 className="font-display text-5xl md:text-[72px] text-kb-white animate-hero-2">JUNK REMOVAL</h1>
         <p className="font-heading text-xl text-scribby-yellow tracking-wider mt-3 animate-hero-3">IN PARTNERSHIP WITH SCRIBBY'S JUNK REMOVAL</p>
       </div>
     </section>
